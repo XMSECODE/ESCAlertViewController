@@ -81,9 +81,6 @@
     
     if (self.message) {
         CGSize infoSize = CGSizeMake(300 - 64, 100);
-//        NSDictionary *dic = @{NSFontAttributeName : FFTextFont(14)};
-        //默认的
-//        [self.message boundingRectWithSize:infoSize options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:dic context:nil];
         
         CGRect infoRect = [attributedString boundingRectWithSize:infoSize options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading  context:nil];
         

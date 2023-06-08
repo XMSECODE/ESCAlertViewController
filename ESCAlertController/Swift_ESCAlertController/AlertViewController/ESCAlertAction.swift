@@ -9,9 +9,6 @@ import UIKit
 
 class ESCAlertAction: NSObject {
     
-//    + (instancetype)actionWithTitle:(NSString *)title titleColor:(UIColor *)titleColor handler:(void (^)(ESCAlertAction *action))handler;
-
-
     var title:String?
     
     var titleColor:UIColor?
